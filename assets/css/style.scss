@@ -4,7 +4,10 @@
 @import "{{ site.theme }}";
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+header {
+  background: rgb(21, 21, 21);
+  color: rgb(181, 232, 83);
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Ubuntu Mono', 'Courier New', Courier, monospace;
   font-weight: 400;
